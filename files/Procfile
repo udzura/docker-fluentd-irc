@@ -1,2 +1,2 @@
-fluentd: /usr/local/bin/fluentd -c /etc/fluentd.conf
+fluentd: /usr/local/bin/bundle exec fluentd -c /etc/fluentd.conf
 stone: /usr/bin/stone $IRCD_HOST_PORT/ssl 6667
